@@ -21,9 +21,19 @@ function displayToScreen(value) {
         let result = parseFloat(numbers[0]) * parseFloat(numbers[1]);
         document.getElementById('display').value = result;
     }
-    else {
+    else if (operator == '/'){
         numbers = expression.split('/');
         let result = parseFloat(numbers[0]) / parseFloat(numbers[1]);
+        document.getElementById('display').value = result;
+    }
+    else if (operator == '%'){
+        
+        let result = parseFloat / 100;
+        document.getElementById('display').value = result;
+    }
+    else if (operator == "sin") {
+        let angle = parseFloat(document.getElementById('display').value);
+        let result = angle(Math.sin * Math.PI/180);
         document.getElementById('display').value = result;
     }
 }

@@ -9,29 +9,33 @@
 <body>
 
     <h1>Welcome to simple calculator</h1>
-    <input type="text" name="" id="display" placeholder="0">
-    <br>
-    <button onclick="clearResult()">c</button>
-    <button onclick="displayToScreen('/')">/</button>
-    <button onclick="displayToScreen('*')">*</button>
-    <button onclick="displayToScreen('-')">-</button>
-    <br>
-    <button onclick="displayToScreen(7)">7</button>
-    <button onclick="displayToScreen(8)">8</button>
-    <button onclick="displayToScreen(9)">9</button>
-    <button onclick="displayToScreen('+')">+</button>
-    <br>
-    <button onclick="displayToScreen(4)">4</button>
-    <button onclick="displayToScreen(5)">5</button>
-    <button onclick="displayToScreen(6)">6</button>
-    <button onclick="result()">=</button>
-    <br>
-    <button onclick="displayToScreen(1)">1</button>
-    <button onclick="displayToScreen(2)">2</button>
-    <button onclick="displayToScreen(3)">3</button>
-    <button onclick="displayToScreen(0)">0</button>
-    <br>
-    <button onclick="displayToScreen('.')">.</button>
+    <div id="calculator">
+        <input type="text" name="" id="display" placeholder="0">
+        <br>
+        <button onclick="clearResult()">c</button>
+        <button onclick="displayToScreen('/')">/</button>
+        <button onclick="displayToScreen('*')">*</button>
+        <button onclick="displayToScreen('-')">-</button>
+        <br>
+        <button onclick="displayToScreen(7)">7</button>
+        <button onclick="displayToScreen(8)">8</button>
+        <button onclick="displayToScreen(9)">9</button>
+        <button onclick="displayToScreen('+')">+</button>
+        <br>
+        <button onclick="displayToScreen(4)">4</button>
+        <button onclick="displayToScreen(5)">5</button>
+        <button onclick="displayToScreen(6)">6</button>
+        <button onclick="result()">=</button>
+        <br>
+        <button onclick="displayToScreen(1)">1</button>
+        <button onclick="displayToScreen(2)">2</button>
+        <button onclick="displayToScreen(3)">3</button>
+        <button onclick="displayToScreen(0)">0</button>
+        <br>
+        <button onclick="displayToScreen('.')">.</button>
+        <button onclick="displayToScreen('%')">%</button>
+        <button onclick="displayToScreen('sin')">sin</button>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 </html>
